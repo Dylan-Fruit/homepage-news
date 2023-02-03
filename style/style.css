@@ -158,6 +158,7 @@ img {
 .main-bottom-news-content p {
   font-size: 0.875rem;
   line-height: 1.625rem;
+  width: 15rem;
   color: #5d5f79;
 }
 
