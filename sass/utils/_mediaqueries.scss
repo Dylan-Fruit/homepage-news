@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .main {
+    margin: 10px 30px;
+    &-section {
+      flex-direction: column;
+      &-article {
+        flex-direction: column;
+        &-content {
+          gap: 1vh;
+          flex-direction: column;
+        }
+      }
+      &-aside {
+        width: 100%;
+      }
+    }
+    &-bottom {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+}
