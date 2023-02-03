@@ -211,6 +211,9 @@ img {
   .main-bottom img {
     width: 40%;
   }
+  .main-bottom-news-content p {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

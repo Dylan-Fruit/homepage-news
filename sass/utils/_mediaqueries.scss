@@ -49,6 +49,13 @@
       img {
         width: 40%;
       }
+      &-news {
+        &-content {
+          p {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
