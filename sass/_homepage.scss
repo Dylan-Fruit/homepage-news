@@ -112,7 +112,7 @@
     gap: 5rem;
     img {
       margin-right: 30px;
-      width: 100%;
+      width: 35%;
     }
     &-news {
       display: flex;
@@ -120,22 +120,25 @@
         font-size: 2rem;
         font-weight: 900;
         color: #c5c6ce;
-        margin-bottom: 20px;
       }
-      h3 {
-        font-weight: 900;
-        font-size: 1.125rem;
-        cursor: pointer;
-        margin-bottom: 10px;
-        &:hover {
-          transition: color 0.2s linear;
-          color: #f15d51;
+      &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3 {
+          font-weight: 900;
+          font-size: 1.125rem;
+          cursor: pointer;
+          &:hover {
+            transition: color 0.2s linear;
+            color: #f15d51;
+          }
         }
-      }
-      p {
-        font-size: 0.875rem;
-        line-height: 1.625rem;
-        color: #5d5f79;
+        p {
+          font-size: 0.875rem;
+          line-height: 1.625rem;
+          color: #5d5f79;
+        }
       }
     }
   }

@@ -131,7 +131,7 @@ img {
 }
 .main-bottom img {
   margin-right: 30px;
-  width: 100%;
+  width: 35%;
 }
 .main-bottom-news {
   display: flex;
@@ -140,19 +140,22 @@ img {
   font-size: 2rem;
   font-weight: 900;
   color: #c5c6ce;
-  margin-bottom: 20px;
 }
-.main-bottom-news h3 {
+.main-bottom-news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-bottom-news-content h3 {
   font-weight: 900;
   font-size: 1.125rem;
   cursor: pointer;
-  margin-bottom: 10px;
 }
-.main-bottom-news h3:hover {
+.main-bottom-news-content h3:hover {
   transition: color 0.2s linear;
   color: #f15d51;
 }
-.main-bottom-news p {
+.main-bottom-news-content p {
   font-size: 0.875rem;
   line-height: 1.625rem;
   color: #5d5f79;
