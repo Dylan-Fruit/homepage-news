@@ -5,15 +5,23 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6vh;
-    ul {
-      display: flex;
-      gap: 35px;
-      cursor: pointer;
-      li {
-        color: #5d5f79;
-        &:hover {
-          transition: color 0.2s ease-in;
-          color: #f15d51;
+    &-nav {
+      &-ul {
+        display: flex;
+        gap: 35px;
+        cursor: pointer;
+        li {
+          color: #5d5f79;
+          &:hover {
+            transition: color 0.2s ease-in;
+            color: #f15d51;
+          }
+        }
+      }
+      &-burger {
+        display: none;
+        &-close {
+          display: none;
         }
       }
     }
