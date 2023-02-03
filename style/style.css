@@ -202,6 +202,7 @@ img {
   .main-bottom {
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 8vh;
   }
   .main-bottom img {
     width: 40%;
