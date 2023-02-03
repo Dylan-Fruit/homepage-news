@@ -18,4 +18,4 @@ Active states :
 
 Mobile menu :
 
-![mobile-design](https://user-images.githubusercontent.com/74901060/216672618-bb9695c3-2814-401f-93ed-a767ce7ee9fc.jpg)
+![mobile-menu](https://user-images.githubusercontent.com/74901060/216672650-f31c3c73-9a01-493d-b80d-ae0be754ad11.jpg)
